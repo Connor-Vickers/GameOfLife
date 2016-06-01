@@ -1,8 +1,8 @@
 import XTest
 import Core
 
-class SampleTest: Spec {
+class SampleSpec: Group {
   let myFirstTest = Test { assert in
-    assert.that(greeting(), equals: "Hello, world!")
+    assert.that(Sample.greeting(), equals: "Hello, world!")
   }
 }

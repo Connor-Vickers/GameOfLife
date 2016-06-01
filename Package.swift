@@ -7,6 +7,6 @@ let package = Package(
     Target(name: "Specs", dependencies: [.Target(name: "Core")])
   ],
   dependencies: [
-    .Package(url: "https://github.com/hkgumbs/XTest.git", Version(0,1,1))
+    .Package(url: "https://github.com/hkgumbs/XTest.git", Version(0,1,6))
   ]
 )

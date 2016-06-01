@@ -1,3 +1,3 @@
 import XTest
 
-Suite(specs: SampleTest()).run()
+Suite(groups: SampleSpec()).run()
