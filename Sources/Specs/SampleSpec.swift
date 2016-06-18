@@ -1,8 +1,8 @@
-import XTest
+import Speck
 import Core
 
-class SampleSpec: Group {
-  let myFirstTest = Test { assert in
-    assert.that(Sample.greeting(), equals: "Hello, world!")
+let SampleSpec = describe("something") {
+  it("is my first test") {
+    expect(Sample.greeting()).to(equal: "Hello, world!")
   }
 }
