@@ -1,3 +1,5 @@
-import XTest
+import Speck
 
-Suite(groups: SampleSpec()).run()
+Speck.register([SampleSpec])
+Speck.Reporter.listen(reporter)
+try Speck.run()
