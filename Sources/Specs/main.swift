@@ -1,5 +1,5 @@
 import Speck
 
-Speck.register([SampleSpec])
+Speck.register([GridSpec])
 Speck.Reporter.listen(reporter)
 try Speck.run()
